@@ -11,9 +11,9 @@ public class ConstructBinaryTree {
 //        int[] test = new int[-1];
         TreeNode tree = reConstructBinaryTree(pre, in);
 //        System.out.println();
-        tree.preOrder(tree);
+        tree.recursionPreOrder(tree);
         System.out.println();
-        tree.inOrder(tree);
+        tree.recursionInOrder(tree);
     }
 
     public static TreeNode reConstructBinaryTree(int [] pre,int [] in) {

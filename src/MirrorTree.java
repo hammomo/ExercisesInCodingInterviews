@@ -9,8 +9,8 @@ public class MirrorTree {
         int[] in = {4,7,2,1,5,3,8,6};
         TreeNode tree1 = ConstructBinaryTree.reConstructBinaryTree(pre, in);
         Mirror(tree1);
-        tree1.preOrder(tree1);
-        tree1.inOrder(tree1);
+        tree1.recursionPreOrder(tree1);
+        tree1.recursionInOrder(tree1);
     }
 
     public static void Mirror(TreeNode root) {
